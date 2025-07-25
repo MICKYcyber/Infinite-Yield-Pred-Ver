@@ -4812,9 +4812,9 @@ CMDs[#CMDs + 1] = {NAME = 'unalignmentkeys / noalignmentkeys', DESC = 'Disables 
 CMDs[#CMDs + 1] = {NAME = 'ctrllock', DESC = 'Binds Shiftlock to LeftControl'}
 CMDs[#CMDs + 1] = {NAME = 'unctrllock', DESC = 'Re-binds Shiftlock to LeftShift'}
 CMDs[#CMDs + 1] = {NAME = 'listento [player]', DESC = 'Listens to the area around a player. Can also eavesdrop with vc'}
-CMDs[#CMDs + 1] = {NAME = 'unlistento', DESC = 'Disables listento'}
-CMDs[#CMDs + 1] = {NAME = 'jerk', DESC = 'Makes you jork it'}
-CMDs[#CMDs + 1] = {NAME = 'unsuspendvc', DESC = 'Unsuspends you from voice chat'}
+CMDs[#CMDs + 1] = {NAME = 'unlistento', DESC = 'idk'}
+CMDs[#CMDs + 1] = {NAME = 'jerk', DESC = 'Masturebaiting'}
+CMDs[#CMDs + 1] = {NAME = 'unsuspendvc', DESC = 'fucking look at the name'}
 wait()
 
 for i = 1, #CMDs do
@@ -6467,10 +6467,10 @@ end)
 
 addcmd('discord', {'support', 'help'}, function(args, speaker)
 	if everyClipboard then
-		toClipboard('https://discord.com/invite/dYHag43eeU')
-		notify('Discord Invite', 'Copied to clipboard!\ndiscord.gg/dYHag43eeU')
+		toClipboard('https://discord.gg/dX6vSAf5Tt')
+		notify('Discord Invite', 'Copied to clipboard!\ndiscord.gg/dX6vSAf5Tt')
 	else
-		notify('Discord Invite', 'discord.gg/dYHag43eeU')
+		notify('Discord Invite', 'discord.gg/dX6vSAf5Tt')
 	end
 	if httprequest then
 		httprequest({
