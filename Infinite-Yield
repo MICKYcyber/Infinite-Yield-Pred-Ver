@@ -12946,10 +12946,6 @@ task.spawn(function()
 		local versionJson = game:HttpGet("https://raw.githubusercontent.com/MICKYcyber/Infinite-Yield-Pred-Ver/refs/heads/main/Version")
 		return HttpService:JSONDecode(versionJson)
 	end)
-
-	if success then
-		if currentVersion ~= latestVersionInfo.Version then
-			notify("Outdated", "Get the new version at github.io")
 		end
 
 		if latestVersionInfo.Announcement and latestVersionInfo.Announcement ~= "" then
