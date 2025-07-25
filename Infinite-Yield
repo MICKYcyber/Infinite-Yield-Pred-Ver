@@ -2854,16 +2854,16 @@ reference = (function()
 	local lastPress = nil
 	inviteButton.MouseButton1Click:Connect(function()
 		if everyClipboard then
-			toClipboard("https://discord.gg/78ZuWSq")
-			inviteButton.Text = "Copied"
+			toClipboard("Your exploit doesn't have the ability to use the clipboard")
+			inviteButton.Text = "Your exploit doesn't have the ability to use the clipboard"
 		else
-			inviteButton.Text = "No Clipboard Function, type out the link"
+			inviteButton.Text = "Your exploit doesn't have the ability to use the clipboard"
 		end
 		local pressTime = tick()
 		lastPress = pressTime
 		wait(2)
 		if lastPress ~= pressTime then return end
-		inviteButton.Text = "Copy Discord Invite Link (https://discord.gg/78ZuWSq)"
+		inviteButton.Text = "Your exploit doesn't have the ability to use the clipboard)"
 	end)
 	dragGUI(main)
 	main.Parent = ScaledHolder
