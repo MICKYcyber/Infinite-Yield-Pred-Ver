@@ -1,2 +1,2 @@
-# Infinite-Yield-Pred-Ver
-Infinite Yield Pred Ver
+# Infinite Yield Pred Ver
+Just A Rename
